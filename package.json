@@ -1,0 +1,40 @@
+{
+  "name": "my_portfolio_bootstrap-version",
+  "version": "1.0.0",
+  "description": "This is another version of my Portfolio website built using Bootstrap-v5 and Sass.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:asserts/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mukumbuta/My_Portfolio_Bootstrap-Version.git"
+  },
+  "keywords": [
+    "My-Portfolio-Website",
+    "Bootstrap-v5",
+    "Sass"
+  ],
+  "author": "Emmanuel Mukumbuta Simasiku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mukumbuta/My_Portfolio_Bootstrap-Version/issues"
+  },
+  "homepage": "https://github.com/Mukumbuta/My_Portfolio_Bootstrap-Version#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.1",
+    "sass": "^1.54.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "bootstrap": "^5.2.0"
+  }
+}
